@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选课界面</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>课程选择</h1>
+    <ul class="course-list">
+        <li class="course-item">
+            <a href="course_pages/computer_science.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-laptop-code course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>计算机科学</h3>
+            <p>学习编程、算法与数据结构的基础知识，打好计算机科学的基础。</p>
+            <button onclick="selectCourse('计算机科学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/psychology.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-brain course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>心理学</h3>
+            <p>探索人类思维和行为的奥秘，了解心理学基础理论和应用。</p>
+            <button onclick="selectCourse('心理学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/art_design.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-paint-brush course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>艺术设计</h3>
+            <p>培养设计思维，提高艺术表达能力，学习如何将创意转化为视觉设计。</p>
+            <button onclick="selectCourse('艺术设计')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/economics.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-chart-line course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>经济学</h3>
+            <p>了解经济学的基本原理，包括供需理论、市场机制等现实应用。</p>
+            <button onclick="selectCourse('经济学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/data_science.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-database course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>数据科学</h3>
+            <p>学习数据收集、清洗、分析和可视化方法，为数据驱动的决策提供支持。</p>
+            <button onclick="selectCourse('数据科学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/environmental_science.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-seedling course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>环境科学</h3>
+            <p>研究生态系统和人类活动的关系，探讨可持续发展和环境保护的策略。</p>
+            <button onclick="selectCourse('环境科学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/biology.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-dna course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>生物学</h3>
+            <p>探索生命的本质，学习基因、细胞、进化和生态学的基础知识。</p>
+            <button onclick="selectCourse('生物学')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/ai.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-robot course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>人工智能</h3>
+            <p>了解机器学习、深度学习等前沿技术，探索AI在各个领域的应用。</p>
+            <button onclick="selectCourse('人工智能')">选课</button>
+        </li>
+        <li class="course-item">
+            <a href="course_pages/physics.html" class="course-icon-link" onclick="showHint(this)">
+                <i class="fas fa-atom course-icon"></i>
+                <span class="hint">点击查看</span>
+            </a>
+            <h3>物理学</h3>
+            <p>从经典力学到量子物理，探索物理学的基本规律和科学原理。</p>
+            <button onclick="selectCourse('物理学')">选课</button>
+        </li>
+    </ul>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
